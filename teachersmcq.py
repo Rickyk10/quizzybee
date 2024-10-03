@@ -86,7 +86,7 @@ def create_pdf(mcqs, filename):
     return pdf_path
 
 # Streamlit interface
-st.title("MCQ Generator for Teachers")
+st.title("MCQ Generator")
 st.write("Upload a file and generate multiple-choice questions (MCQs) automatically!")
 
 # File upload section
