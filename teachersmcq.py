@@ -91,7 +91,9 @@ st.write("Upload a file and generate multiple-choice questions (MCQs) automatica
 
 # File upload section
 uploaded_file = st.file_uploader("Upload your document (PDF, TXT, DOCX):", type=['pdf', 'txt', 'docx'])
-num_questions = st.number_input("How many questions do you want?", min_value=1, step=1)
+
+# Slider for selecting the number of questions
+num_questions = st.slider("How many questions do you want?", min_value=1, max_value=20, value=5, step=1)
 
 if uploaded_file is not None:
     # Save the uploaded file
