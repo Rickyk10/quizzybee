@@ -64,8 +64,8 @@ To run the code on your local machine, follow these steps:
 <img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/23.png?raw=true">
 
     Then, activate the virtual environment:
-      * **Windows:** env\Scripts\activate
-      * **Mac/Linux:** source env/bin/activate
+      **Windows:** env\Scripts\activate
+      **Mac/Linux:** source env/bin/activate
       
 4. Install the required Python libraries. If you have a requirements.txt file (as you do), you can install the dependencies directly:
 
