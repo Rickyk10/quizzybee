@@ -1,99 +1,98 @@
-# <a name="ai-voicetranslator"></a> LinguaSpeak: Real-time Voice-to-Voice Translation in 6 Popular Languages
+# <a name="mcq-generator"></a> AI-Powered MCQ Generator: Automatically Create Multiple-Choice Questions from Uploaded Text Documents
 
 ## Table of Contents
-- [Detailed Breakdown of the Code](#detailed-breakdown) 
+- [Code Overview and Breakdown](#code-overview-and-breakdown) 
+- [Skills Acquired](#skills-acquired)
 - [Technologies Used](#technologies-used)
 - [How To Run the Code](#how-to-run-the-code)
 - [Contributing](#contributing)
 
-## <a name="detailed-breakdown"></a> Detailed Breakdown of the Code
-The purpose of this Python script is to create an application that translates spoken English into six popular languages (Spanish, Turkish, Japanese, French, German, and Chinese) and plays back the translated text as speech. The program uses Gradio for creating the user interface, AssemblyAI for speech-to-text transcription, and ElevenLabs for text-to-speech generation.
+## <a name="detailed-breakdown"></a> Code Overview and Breakdown
 
-**Skills Acquired:**
-* API integration (AssemblyAI, ElevenLabs)
-* File handling and text processing
-* Real-time user interface creation using Gradio
-* Error handling and exception management
-* Text translation via the translate library
+This project is an AI-powered web application designed to generate multiple-choice questions (MCQs) from text documents, using Streamlit as the web interface and Google’s Gemini-1.5 Pro AI model for generating questions. Users can upload files (PDF, DOCX, or TXT), and the application extracts text from the document, processes it, and generates a specified number of MCQs with four answer options (A-D). The correct answer is also provided for each question.
 
-Here’s a breakdown of the major segments in the code:
+The project is divided into several major segments:
 
-**a. Importing Libraries**
+1. **File Upload and Text Extraction**
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/7699cd81615efc1e8d15a2cb6ba371f0dd2a6e2c/1.png">
+This part allows users to upload files in multiple formats, including PDF, TXT, and DOCX. It extracts text from the files using libraries like pdfplumber (for PDF) and python-docx (for DOCX).
 
-* Gradio creates the interface, allowing users to upload audio.
-* AssemblyAI handles the transcription of audio to text.
-* Translator translates English text into different languages.
-* ElevenLabs converts the translated text back into speech using various voices.
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/19.png?raw=true">
 
-**b. Global Configuration and Supported Languages**
+2. **MCQ Generation Using AI**
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/2.png?raw=true">
+The Google Generative AI (Gemini model) is used to generate MCQs from the extracted text. The code sends a formatted prompt to the AI model, asking it to generate a specified number of questions.
 
-API keys for external services (AssemblyAI and ElevenLabs) are globally defined here, and a dictionary of supported languages is set up, mapping language names to their respective language codes.
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/20.png?raw=true">
 
-**c. Voice-to-Voice Functionality**
+3. **Displaying and Downloading MCQs**
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/3.png?raw=true">
+Once the MCQs are generated, they are displayed on the webpage, and users can download them as either a TXT or PDF file. The PDF generation is handled using the FPDF library.
 
-This function is the core of the app, transcribing an uploaded audio file, translating the transcribed text into multiple languages, and then converting the translations into speech.
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/21.png?raw=true">
 
-**d. Audio Transcription**
+4. **Web Application Interface**
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/4.png?raw=true">
+The user interface is built using Streamlit, which allows for interactive web apps in Python. Users can upload files, select the number of questions, and regenerate questions if needed. The results are displayed directly in the app.
 
-This function uses the AssemblyAI API to convert audio files to text.
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/22.png?raw=true">
 
-**e. Text Translation**
-
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/5.png?raw=true">
-
-This function translates the transcribed English text into the target language using the translate library.
-
-**f. Text-to-Speech Conversion**
-
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/6.png?raw=true">
-
-The translated text is converted into speech using ElevenLabs' API, and the output is saved as an MP3 file.
-
-**g. Gradio Interface**
-
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/7.png?raw=true">
-
-This section creates the interactive interface using Gradio, allowing users to upload audio, view translations in text, and listen to them in the target language.
+## Skills Acquired:
+* **Text Processing:** Handling text extraction from multiple file formats (PDF, DOCX, TXT).
+* **API Integration:** Integrating Google’s Generative AI API for content generation.
+* **Web Development with Streamlit:** Building interactive web apps with file uploads, user inputs, and downloadable results.
+* **PDF Generation:** Utilizing FPDF to convert generated questions into a professional-looking PDF.
+* **Error Handling:** Managing different file encodings and edge cases during text extraction.
 
 ## Technologies Used
-* **Gradio:** A framework for building easy-to-use user interfaces, especially for machine learning models.
-* **AssemblyAI:** A speech-to-text service that converts spoken language into text.
-* **Translate Library:** Handles the text translation from English to the supported languages.
-* **ElevenLabs:** An API that converts text into speech with various voice options.
-* **UUID and Pathlib:** For generating unique file names and managing file paths.
+* **Streamlit:** Used to create the web interface for uploading documents, interacting with users, and displaying MCQs.
+* **pdfplumber:** A library for extracting text from PDF documents.
+* **python-docx:** Extracts text from DOCX (Microsoft Word) files.
+* **FPDF:** A lightweight library to generate PDF files.
+* **Google Generative AI (Gemini Model):** This API is used to generate the actual MCQs from the text provided by the user.
+* **OS Module:** Handles file paths and directory creation.
 
 ## How To Run the Code
-Before running the code, ensure that the necessary dependencies are installed and API keys are correctly configured.
+To run the code on your local machine, follow these steps:
 
-**Requirements:**
-You'll need to download the requirements.txt file to install the necessary libraries. Below is an example content of the requirements.txt:
+**Step 1: Clone the Repository and Install Requirements**
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/8.png?raw=true">
+1. Clone the project repository or copy the code to your local machine.
+2. Ensure you have Python installed.
+3. Create a virtual environment (optional but recommended):
 
-**Steps to Run the Code:**
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/23.png?raw=true">
 
-1. **Install Dependencies:**
-First, create a virtual environment and install the required packages by running:
+    Then, activate the virtual environment:
+      * **Windows:** env\Scripts\activate
+      * **Mac/Linux:** source env/bin/activate
+      
+4. Install the required Python libraries. If you have a requirements.txt file (as you do), you can install the dependencies directly:
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/9.png?raw=true">
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/24.png?raw=true">
 
-2. **Add API Keys:**
-* Replace ASSEMBLY_AI_API_KEY = "[]" with your actual AssemblyAI API key.
-* Replace ELEVEN_LABS_API_KEY = "[]" with your ElevenLabs API key.
-* For ElevenLabs, also provide a valid voice_id in the text_to_speech function. [SignUp on ElevenLabs](https://tinyurl.com/elevenlabs24)
+**Step 2: Set up API Key**
+The project requires an API key to access Google’s Generative AI model. You must set up your **Google API Key** and place it in your environment as follows:
 
-3. **Run the Script:**
-Launch the application using:
+1. Go to Google Cloud Console and generate an API key for the Gemini Model.
+2. Update the code where the GOOGLE_API_KEY is required:
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/10.png?raw=true">
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/25.png?raw=true">
+
+**Step 3: Run the Streamlit Application**
+Once the environment is set up and dependencies are installed, run the Streamlit web app using the following command:
+
+<img width="722" alt="MCQ-Generator" src="https://github.com/Dev-Godswill/picture-files/blob/main/26.png?raw=true">
+
+Replace your_script_name.py with the name of the script that contains the code above.
+
+**Step 4: Access the Web Interface**
+After running the Streamlit app, a URL will be provided in your terminal (usually http://localhost:8501). Open this in your web browser to start using the MCQ generator.
+
+**Step 5: Upload Files and Generate MCQs**
+* Upload a text document in PDF, DOCX, or TXT format.
+* Specify the number of questions you want to generate.
+* Download the MCQs as TXT or PDF files.
 
 ## Contributing
 Contributions to this project is welcome! If you'd like to contribute, please follow these steps:
