@@ -1,5 +1,10 @@
 # <a name="mcq-generator"></a> AI-Powered MCQ Generator: Automatically Create Multiple-Choice Questions from Uploaded Text Documents
 
+Features
+📖 Language Translation: Generate MCQs in multiple languages for better accessibility.
+📝 Short Notes: Automatically generate concise summaries alongside MCQs for quick revision.
+🎯 Focus Mode: A distraction-free interface for concentrated studying and learning
+
 ## Table of Contents
 - [Code Overview and Breakdown](#code-overview-and-breakdown) 
 - [Skills Acquired](#skills-acquired)
