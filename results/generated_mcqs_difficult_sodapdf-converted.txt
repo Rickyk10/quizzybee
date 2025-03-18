@@ -1,0 +1,40 @@
+## MCQ 1
+Question:  Which of the following statements accurately describes a key difference between terrestrial planets and gas giants, beyond simply size and composition?
+A) Terrestrial planets have stronger magnetic fields due to their metallic cores, while gas giants lack substantial magnetic fields.
+B) Terrestrial planets experienced significant early bombardment leading to differentiated interiors, while gas giants retained more homogenous compositions.
+C) Terrestrial planets formed closer to the Sun where lighter elements were blown away by solar winds, leaving heavier elements to coalesce, while gas giants formed further out where lighter elements could condense.
+D) Terrestrial planets have primary atmospheres captured directly from the solar nebula, whereas gas giants have secondary atmospheres formed from volcanic outgassing.
+Correct Answer: C
+
+## MCQ 2
+Question:  Europa's potential subsurface ocean is considered a possible location for extraterrestrial life primarily because:
+A) It's confirmed to contain complex organic molecules necessary for life.
+B) It has a similar chemical composition to Earth's oceans, rich in salts and minerals.
+C)  It's located within Jupiter's magnetosphere, protecting it from harmful radiation.
+D) It could offer a stable liquid environment shielded from surface radiation, potentially allowing for the development of chemosynthetic life forms.
+Correct Answer: D
+
+## MCQ 3
+Question: The "asteroid belt" is primarily located between which two planets and what gravitational influence significantly contributes to its structure?
+A) Earth and Mars;  The combined gravitational pull of the inner planets prevents the formation of a planet.
+B) Mars and Jupiter; Jupiter's gravity prevents the asteroids from coalescing into a planet.
+C) Jupiter and Saturn; Saturn's rings exert a gravitational influence that captures stray asteroids.
+D) Uranus and Neptune; These planets' weak gravitational pull allows for the stable orbit of icy bodies within the belt.
+Correct Answer: B
+
+## MCQ 4
+Question: What is the primary factor that makes Earth uniquely suitable for life within our solar system?
+A) The presence of a large moon stabilizing Earth's axial tilt and creating regular tides.
+B)  The precise combination of atmospheric composition, liquid water, and temperature range.
+C)  Its location within the Sun's habitable zone, combined with a strong magnetic field.
+D)  The continuous volcanic activity that replenishes the atmosphere and provides essential nutrients.
+Correct Answer: B
+
+
+## MCQ 5
+Question:  Comets develop their characteristic glowing tails when they approach the Sun. What is the primary cause of this phenomenon?
+A) Solar wind ionizes the comet's nucleus, causing it to emit light.
+B) Solar radiation vaporizes volatile ices within the comet, creating a glowing coma and tail.
+C) Frictional heating as the comet passes through the Earth's atmosphere creates a fiery tail.
+D) Gravitational forces from the Sun stretch the comet's nucleus, causing it to glow.
+Correct Answer: B

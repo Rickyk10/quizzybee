@@ -1,0 +1,20 @@
+## Note 1
+Chebyshev time delay improved compared to existing methods.
+
+## Note 2
+Mapping functions investigated: Chebyshev, CML (presumably Convolutional Mapping Layer), and DCML (presumably Deep Convolutional Mapping Layer).
+
+## Note 3
+Comparison performed between Chebyshev and CML mapping for sequence processing.
+
+## Note 4
+Input sequences denoted as 'P sequences'. Output sequences also analyzed.
+
+## Note 5
+'Po' and 'L' mentioned, but context unclear.  Further investigation needed.
+
+## Note 6
+DCML explored as another mapping option for sequences.
+
+## Note 7
+Random performance analysis conducted (possibly as a baseline comparison).  'Le' likely a typo for 'The'.  Analysis involves 4 (unspecified units, possibly datasets or experiments).

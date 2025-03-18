@@ -1,0 +1,40 @@
+## MCQ 1
+Question: What type of map function is mentioned in relation to Chebyshev Time delay improvement?
+A) CML
+B) PoL
+C) DCML
+D) Le
+Correct Answer: A
+
+## MCQ 2
+Question:  What is being compared against Chebyshev in the provided text?
+A)  PoL
+B)  CML
+C)  Le
+D)  DCML
+Correct Answer: B
+
+## MCQ 3
+Question: What kind of analysis is "Le Random" associated with?
+A) Sequence analysis
+B) Time delay analysis
+C) Performance analysis
+D) Map function analysis
+Correct Answer: C
+
+## MCQ 4
+Question: What is Chebyshev Time delay being improved in relation to?
+A)  Sequences
+B)  Maps
+C)  Performance
+D)  Randomness
+Correct Answer: A
+
+
+## MCQ 5
+Question:  What does "DCML" likely stand for, based on the context?
+A)  Direct Current Map Location
+B)  Digital CML
+C)  Data Compiled Machine Learning
+D)  Double CML
+Correct Answer: B

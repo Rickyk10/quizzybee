@@ -1,0 +1,14 @@
+## Note 1
+Chebyshev time delay has been improved.
+
+## Note 2
+Comparison performed between Chebyshev and Continuous Mapping Learning (CML).
+
+## Note 3
+Mapping function explored for CML.
+
+## Note 4
+Sequences analyzed for both Chebyshev, CML, and Delayed CML (DCML).
+
+## Note 5
+Random performance analysis conducted (likely related to Le).

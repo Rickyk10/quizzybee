@@ -1,0 +1,39 @@
+## MCQ 1
+Question: What is the core concept of blockchain technology?
+A) Centralized system
+B) Distributed system
+C) Single-node system
+D) Isolated system
+Correct Answer: B
+
+## MCQ 2
+Question: What is a Byzantine node?
+A) An honest and reliable node
+B) A node that exhibits arbitrary or malicious behavior
+C) A node with limited memory
+D) A node that always follows the rules
+Correct Answer: B
+
+## MCQ 3
+Question: What does CAP theorem state about distributed systems?
+A) They can have consistency, availability, and partition tolerance simultaneously.
+B) They cannot have consistency, availability, and partition tolerance simultaneously.
+C) They always prioritize consistency over availability.
+D) They always prioritize partition tolerance over consistency.
+Correct Answer: B
+
+## MCQ 4
+Question: What is the purpose of mining in blockchain?
+A) To slow down the network
+B) To facilitate consensus and add blocks to the blockchain
+C) To decrypt transactions
+D) To create new cryptocurrencies without consensus
+Correct Answer: B
+
+## MCQ 5
+Question: What is the first block in a blockchain called?
+A) The foundation block
+B) The origin block
+C) The genesis block
+D) The root block
+Correct Answer: C

@@ -1,0 +1,57 @@
+## MCQ 1
+Question: What is the core characteristic of a blockchain that makes it resistant to data manipulation?
+A) Decentralization
+B) Immutability
+C) Transparency
+D) Availability
+Correct Answer: B
+
+## MCQ 2
+Question:  Which consensus mechanism involves solving complex computational puzzles to validate transactions?
+A) Proof of Stake (PoS)
+B) Proof of Work (PoW)
+C) Proof of Authority (PoA)
+D) Practical Byzantine Fault Tolerance (PBFT)
+Correct Answer: B
+
+## MCQ 3
+Question: According to the CAP theorem, which combination of properties is impossible for a distributed system to achieve simultaneously?
+A) Consistency, Availability, Partition Tolerance
+B) Consistency, Availability, Security
+C) Consistency, Security, Partition Tolerance
+D) Availability, Security, Partition Tolerance
+Correct Answer: A
+
+## MCQ 4
+Question: Which type of blockchain is best suited for applications requiring high transaction throughput and privacy within a specific organization?
+A) Public Blockchain
+B) Private Blockchain
+C) Consortium Blockchain
+D) Hybrid Blockchain
+Correct Answer: B
+
+## MCQ 5
+Question: What does the term "Byzantine node" refer to in a distributed system?
+A) A node that consistently follows the protocol.
+B) A node that has failed and is no longer participating.
+C) A node that exhibits arbitrary or malicious behavior.
+D) A node with limited computational power.
+Correct Answer: C
+
+
+## MCQ 6
+Question:  Which component of a blockchain stores a record of an event, such as a transfer of value?
+A) Block
+B) Address
+C) Transaction
+D) Ledger
+Correct Answer: C
+
+
+## MCQ 7
+Question: What is the primary challenge addressed by the Byzantine Generals Problem?
+A) Achieving consensus in a distributed system with faulty nodes.
+B) Optimizing transaction throughput in a blockchain network.
+C) Securing the network against external attacks.
+D) Managing the storage capacity of the blockchain.
+Correct Answer: A

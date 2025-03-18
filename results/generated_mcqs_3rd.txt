@@ -1,0 +1,40 @@
+## MCQ 1
+Question: What is being compared against Chebyshev in the context of time delay improvement?
+A) Po
+B) L
+C) CML
+D) DCML
+Correct Answer: C
+
+## MCQ 2
+Question: What type of function is associated with the "map" in the provided text?
+A) Chebyshev
+B) CML
+C) DCML
+D) Po
+Correct Answer: B
+
+## MCQ 3
+Question:  What are Chebyshev and CML being compared against in terms of sequences?
+A)  Random sequences
+B)  P sequences
+C)  L sequences
+D)  Po sequences
+Correct Answer: B
+
+## MCQ 4
+Question: What specific type of CML sequences is mentioned?
+A) P sequences
+B) L sequences
+C) DCML sequences
+D) Random sequences
+Correct Answer: C
+
+
+## MCQ 5
+Question: What kind of analysis is associated with the number 4?
+A) Time delay analysis
+B) CML mapping analysis
+C) Random performance analysis
+D) Chebyshev sequence analysis
+Correct Answer: C

@@ -1,0 +1,43 @@
+## MCQ 1
+Question: Which of the following statements about the terrestrial planets is NOT accurate?
+A) They are primarily composed of rock and metal.
+B) They possess a solid, rocky surface.
+C) They all have a substantial atmosphere comparable to Earth's.
+D) They are located closer to the Sun than the gas giants.
+Correct Answer: C
+
+
+## MCQ 2
+Question:  Europa, a moon of Jupiter, is of particular scientific interest primarily due to:
+A) Its exceptionally large size compared to other Jovian moons.
+B) The potential presence of a subsurface liquid water ocean, raising the possibility of life.
+C) Its highly volcanic activity, similar to Io.
+D) Its dense, oxygen-rich atmosphere.
+Correct Answer: B
+
+
+## MCQ 3
+Question: The division of planets into terrestrial and gas giants is primarily based on which two factors?
+A) Size and distance from the Sun.
+B) Composition and presence of moons.
+C) Composition and size.
+D) Temperature and orbital period.
+Correct Answer: C
+
+
+## MCQ 4
+Question:  What differentiates comets from asteroids in our solar system beyond their composition?
+A) Comets have elliptical orbits while asteroids have circular orbits.
+B) Comets develop a coma and tail as they approach the Sun due to the sublimation of volatiles, a characteristic not observed in asteroids.
+C) Comets originate from the Kuiper Belt while asteroids originate from the Oort Cloud.
+D) Comets are significantly larger than asteroids.
+Correct Answer: B
+
+
+## MCQ 5
+Question:  Which of the following is NOT considered a crucial factor contributing to the Earth's ability to support life as we know it?
+A) Presence of liquid water.
+B) Strong magnetic field deflecting harmful solar radiation.
+C) Its position as the third planet from the Sun.
+D) High concentration of oxygen in the atmosphere.
+Correct Answer: D

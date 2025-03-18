@@ -1,0 +1,40 @@
+## MCQ 1
+Question:  Which combination of CAP theorem properties becomes problematic when a network partition occurs in a two-node distributed system, specifically concerning data updates?
+A) Consistency and Partition Tolerance
+B) Availability and Partition Tolerance
+C) Consistency and Availability
+D) Consistency, Availability, and Partition Tolerance
+Correct Answer: C
+
+## MCQ 2
+Question:  Beyond Proof-of-Work (PoW) and Proof-of-Stake (PoS), which consensus mechanism leverages a *trusted execution environment* (TEE) to ensure fairness in leader selection through guaranteed wait times, potentially mitigating energy consumption concerns associated with PoW?
+A) Proof of Activity (PoA)
+B) Proof of Elapsed Time (PoET)
+C) Delegated Proof of Stake (DPoS)
+D) Proof of Capacity (PoC)
+Correct Answer: B
+
+## MCQ 3
+Question:  Satoshi Nakamoto's key innovation in Bitcoin, distinguishing it from earlier e-cash proposals like b-money and BitGold, was the introduction of:
+A) Public key cryptography
+B) Computational puzzles for currency generation
+C) A peer-to-peer network for transaction maintenance
+D) An ordered, cryptographically secured chain of transaction blocks
+Correct Answer: D
+
+
+## MCQ 4
+Question:  Which blockchain type offers a balance between privacy and verifiability by combining permissioned and permissionless systems, allowing selective data disclosure through smart contracts while mitigating the risk of 51% attacks inherent in fully public blockchains?
+A) Private Blockchain
+B) Consortium Blockchain
+C) Public Blockchain
+D) Hybrid Blockchain
+Correct Answer: D
+
+## MCQ 5
+Question: Which consensus mechanism goes beyond simply considering the stake a user holds and incorporates the user's transaction history and activity patterns to assess trust and assign "importance" in the network's consensus process?
+A) Proof of Deposit (PoD)
+B) Proof of Importance (PoI)
+C) Proof of Activity (PoA)
+D) Delegated Proof of Stake (DPoS)
+Correct Answer: B
